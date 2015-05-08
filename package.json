@@ -1,0 +1,36 @@
+{
+  "name": "lxd",
+  "version": "1.0.0",
+  "description": "LXD remote client for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanhoff/node-lxd.git"
+  },
+  "keywords": [
+    "lxd",
+    "lxc",
+    "container",
+    "linux",
+    "virtual"
+  ],
+  "author": "Alan Hoffmeister <alanhoffmeister@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanhoff/node-lxd/issues"
+  },
+  "homepage": "https://github.com/alanhoff/node-lxd",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "joi": "^6.4.1",
+    "mout": "^0.11.0",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
