@@ -95,7 +95,7 @@ describe('Main LXD Api endpoints', function() {
     });
 
     it('Should rename a container', function() {
-      return client.updateContainer(container, {
+      return client.renameContainer(container, {
         name: container + '-new'
       }).then(function(res) {
         expect(res.status).to.be.equal('OK');
